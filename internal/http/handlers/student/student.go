@@ -22,7 +22,7 @@ func New() http.HandlerFunc{
 
         // checking if incoming json data is empty or not
         if errors.Is(err, io.EOF){
-            response.WriteJson(w, http.StatusBadRequest,err.Error())
+            response.WriteJson(w, http.StatusBadRequest,response.GenralError(err))
             return
         }
 
