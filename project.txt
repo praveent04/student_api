@@ -10,3 +10,4 @@
 so that the data inside our main config file at configpath must store in form of config 
 struct written in config.go file in internal folder
 
+# we are using validator package to
