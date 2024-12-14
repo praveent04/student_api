@@ -6,4 +6,7 @@
     to avoid unnecessary type conversions and move the configuration through 
     the program as a simple structure, not as an object with complex behavior.
 
-#
+# wrpte a mustload function in config.go file inside internal that must be execute 
+so that the data inside our main config file at configpath must store in form of config 
+struct written in config.go file in internal folder
+
